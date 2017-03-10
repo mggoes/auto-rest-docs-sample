@@ -1,0 +1,41 @@
+= Auto Rest Docs Sample
+matheusgg;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+[introduction]
+== Introduction
+This is a sample project to test auto documentation.
+
+//=== Description
+//include::{snippets}/customers/description.adoc[]
+//
+//=== Retrieve Customers
+//include::{snippets}/customers/http-request.adoc[]
+//
+//=== Method Path
+//include::{snippets}/customers/method-path.adoc[]
+//
+//=== Path Parameters
+//include::{snippets}/customers/path-parameters.adoc[]
+//
+//=== Request Fields
+//include::{snippets}/customers/request-fields.adoc[]
+//
+//=== Request Parameters
+//include::{snippets}/customers/request-parameters.adoc[]
+//
+//=== Example Request
+//include::{snippets}/customers/curl-request.adoc[]
+//
+//=== Response Fields
+//include::{snippets}/customers/response-fields.adoc[]
+//
+//=== Example Response
+//include::{snippets}/customers/http-response.adoc[]
+
+include::{snippets}/customers/section.adoc[]
